@@ -4,4 +4,4 @@
 
 ### MULTIDIARIO
 
-Este pryecto tiene 5 páginas
+Este proyecto tiene 5 páginas
