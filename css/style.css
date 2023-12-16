@@ -7,9 +7,10 @@
     --third-color-a: #B3B3B3;
     --third-color-b: #A71FBD;
     --font: "Imbue", sans-serif;
-    --font-size-h1: 1.5rem;
-    --font-size-h2: 1.25rem;
-    --font-size-p: 1rem;
+    --font-size-h1: 3.5rem;
+    --font-size-h2: 2.5rem;
+    --font-size-p: 2rem;
+    --font-style-p: 'Times New Roman', Times, serif;
     --font-size-a: 2rem;
     --text-color-principal: black;
     --link-color-a: rgb(39, 129, 189);
@@ -62,22 +63,41 @@ footer {
 h1 {
     margin: 0;
     font-size: var(--font-size-h1);
+    text-align: center;
 }
 
-h1 {
+h2 {
     margin: 0;
     font-size: var(--font-size-h2);
+    text-align: center;
 }
 
 img {
+    display: block;
     max-width: 100%;
     height: auto;
+    margin: auto;
 }
 
 p {
     margin: 0;
     font-size: var(--font-size-p);
     line-height: 1.6;
+    font-family: var(--font-style-p);
+}
+
+textarea {
+    display: block;
+    text-align: center;
+    margin: auto;
+    background-color: var(--third-color-a);
+}
+
+input {
+    display: block;
+    text-align: center;
+    margin: auto;
+    background-color: var(--third-color-a);
 }
 
 /*****************Components****************/
@@ -115,10 +135,10 @@ p {
     background-color: var(--third-color-a);
 }
 
-h1 {
+/* h1 {
     margin-top: var(--topBox-height);
     /* Ajusta esta línea con la altura correcta de .topBox */
-}
+
 
 .noticiasRápidas {
     background-color: var(--first-color);
@@ -225,6 +245,7 @@ h1 {
         width: 50%;
         position: static;
     }
+
     .hamburguesaMenu {
         display: none;
     }
